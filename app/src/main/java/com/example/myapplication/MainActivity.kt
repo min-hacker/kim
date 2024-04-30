@@ -137,7 +137,6 @@ class MainActivity : AppCompatActivity() {
                 connection.disconnect()
             }
         }
-
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
             if (result.isNullOrEmpty()) {
